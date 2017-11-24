@@ -1,0 +1,221 @@
+body {
+  margin:0;
+  padding:0;
+  background-color: #e6e8eb;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+}
+
+#barra {
+  height: 43px;
+  background-color: #334f8d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+
+}
+
+#contenidor {
+  width: 852px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+#portada {
+  height: 234px;
+  background-image: url(../img/portada.jpg);
+  margin-top: 43px;
+}
+
+#nom {
+
+  width: 320px;
+  position: relative;
+  top: 188px;
+  left: 200px;
+  color: #FFF;
+  text-shadow: 0 0 2px #000;
+
+        }
+
+#perfil {
+  background-color: pink;
+  border: solid 4px white;
+  border-radius: 4px;
+  position: relative;
+  left: 20px;
+  top: 50px;
+  z-index: 1;
+  box-shadow: 0 0 2px #000;
+}
+#menu {
+  height: 44px;
+  background-color: #e6e8eb;
+  padding: 0px;
+  margin:0 0 0 192px;
+  width: 475px;
+
+}
+
+#menu li {
+  float: left;
+  padding: 0 18px;
+  display: block;
+  font-weight: bold;
+  color: #334f8d;
+  background-color: #FFF;
+  margin: 0 0 0 1px;
+  height: 44px;
+  line-height: 44px;
+
+}
+
+#menu li:hover {
+  color: #000;
+  background-image: url(../img/selec.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 37px;
+}
+
+#contingut {
+  border-top: solid 1px #e6e8eb;
+}
+
+.esquerra {
+  width: 323px;
+  border: solid 1px #CCC;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding:0;
+}
+
+.esquerra h4 {
+  background-color: yellow;
+  height:14px;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  text-indent: 36px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  margin:0;
+}
+
+
+#presentacio h4 {
+  background-position: 0 0;
+}
+
+#fotos h4 {
+  background-position: 0 -24px;
+}
+
+#amics h4 {
+  background-position: 0 -48px;
+}
+
+#presentacio li {
+  height: 30px;
+  border-top: solid 1px grey;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#presentacio .estudis {
+  list-style-image: url(../img/iconetes/icones_estudis.png);
+}
+
+#presentacio .domicili {
+  list-style-image: url(../img/iconetes/icones_domicili.png);
+}
+
+#presentacio .feina {
+  list-style-image: url(../img/iconetes/icones_feina.png);
+}
+
+#presentacio .relacio {
+  list-style-image: url(../img/iconetes/icones_sentimental.png);
+}
+#presentacio .esdeveniments {
+  list-style-image: url(../img/iconetes/icones_esdeveniments.png);
+}
+
+#presentacio .pagina {
+  list-style-image: url(../img/iconetes/icones_rss.png);
+}
+
+#fotos ul li {
+  background-color: yellowgreen;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: transparent;
+}
+#amics ul li {
+  background-color: gold;
+  display: block;
+  width: 99px;
+  height: 99px;
+  margin: 4px;
+  float: left;
+  background-size: 99px 99px;
+  color: white;
+  background-image: url(../img/perfil.jpg);
+  line-height: 178px;
+  text-shadow: 0 0 2px #000;
+  text-indent: 5px;
+}
+
+
+#fotos ul {
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+}
+#amics ul {
+  overflow:hidden;
+  margin: 0;
+  padding: 0;
+}
+.esquerra ul{
+  background-color: red;
+  margin-top: 20px;
+}
+
+#f01 {
+  background-image: url(../img/fotos/f01.jpg)
+}
+#f02 {
+  background-image: url(../img/fotos/f02.jpg)
+}
+#f03 {
+  background-image: url(../img/fotos/f03.jpg)
+}
+#f04 {
+  background-image: url(../img/fotos/f04.jpg)
+}
+#f05 {
+  background-image: url(../img/fotos/f05.jpg)
+}
+#f06 {
+  background-image: url(../img/fotos/f06.jpg)
+}
+#f07 {
+  background-image: url(../img/fotos/f07.jpg)
+}
+#f08 {
+  background-image: url(../img/fotos/f08.jpg)
+}
+#f09 {
+  background-image: url(../img/fotos/f09.jpg)
+}
+
+#mosca {
+  float: right;
+}
+
+}
